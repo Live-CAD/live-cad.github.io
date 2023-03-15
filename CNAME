@@ -1,5 +1,1 @@
-$ dig www.livecad.online +noall +answer -t A
-> www.livecad.online    3600    IN A     185.199.108.153
-> www.livecad.online    3600    IN A     185.199.109.153
-> www.livecad.online    3600    IN A     185.199.110.153
-> www.livecad.online    3600    IN A     185.199.111.153
+www.livecad.online
