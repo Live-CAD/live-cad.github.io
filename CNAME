@@ -1,4 +1,3 @@
-
 $ dig www.livecad.online +nostats +nocomments +nocmd
     > ;www.livecad.online.                    IN      A
     > www.livecad.online.             3592    IN      CNAME   live-cad.github.io.
