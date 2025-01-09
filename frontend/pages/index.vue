@@ -1,24 +1,12 @@
 <template>
   <div>
-    <div>
-      <h1>LiveCAD Products</h1>
-      <ul>
-        <li v-for="product in products" :key="product.id">
-          {{ product.name }} - {{ product.description }}
-        </li>
-      </ul>
-    </div>
-    <NuxtPage />
+    <h2>Welcome to My Nuxt 3 App</h2>
+    <p>This is the homepage of a simple Nuxt 3 application.</p>
   </div>
 </template>
-  
-  <script setup>
-  import { ref, onMounted } from 'vue'
-  
-  const products = ref([])
-  
-  onMounted(async () => {
-    const response = await fetch(`${useRuntimeConfig().public.apiBase}/products`)
-    products.value = await response.json()
-  })
-  </script>
+
+<style scoped>
+h2 {
+  color: #0070f3;
+}
+</style>
